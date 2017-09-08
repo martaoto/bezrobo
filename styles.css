@@ -1,0 +1,13 @@
+body {
+	background-image: url(img/nyan.jpg);
+	background-size: 20% auto;
+	font-size: 16px;
+}
+
+.countingdays p {
+	color: #FFF;
+	font-size: 2rem;
+	display: inline-block;
+	padding: 5px;
+	margin: 0 0 20px;
+}
