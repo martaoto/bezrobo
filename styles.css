@@ -1,13 +1,30 @@
+
 body {
+	display: flex;
+	flex-wrap: wrap;
 	background-image: url(img/nyan.jpg);
-	background-size: 20% auto;
+	background-size: 50% auto;
 	font-size: 16px;
+	color: #FFF;
+	justify-content: center;
 }
 
-.countingdays p {
-	color: #FFF;
-	font-size: 2rem;
-	display: inline-block;
-	padding: 5px;
-	margin: 0 0 20px;
+
+.header {
+	padding: 20% 0;
+	font-size: 5rem;
+}
+
+.countingdays {
+	display: flex;
+	flex-wrap: wrap;
+	/*justify-content: space-between;*/
+}
+
+.count  {
+	padding-right: 1rem;
+}
+
+.time {
+	padding-right: 3rem;
 }
